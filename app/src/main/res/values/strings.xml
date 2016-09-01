@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">CardFit</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6011128614864045/8504624613</string>
+
+    <string name="profile">Perfil</string>
+    <string name="card">Ficha</string>
+    <string name="cards">Fichas</string>
+    <string name="activities">Exercícios</string>
+    <string name="students">Alunos</string>
+    <string name="settings">Configurações</string>
+    <string name="in_building">Em construção</string>
+    <string name="feedback">Feedback</string>
+    <string name="pattern">Padrão</string>
+    <string name="custom">Personalizado</string>
+    <string name="feedbackDesc">Nesta área você poderá sugerir dicas de melhoria e reportar erros. Estaremos trabalhando para melhorar a usabilidade do CardFit. Obrigado</string>
+    <string name="leave">Sair</string>
+    <string name="card_ab">Ficha A,B</string>
+    <string name="card_abc">Ficha A,B,C</string>
+    <string name="card_abcde">Ficha A,B,C,D,E</string>
+
+    <string name="action_add_card">Adicionar Ficha</string>
+    <string name="new_activity">Novo exercício</string>
+    <string name="ok">ok</string>
+    <string name="you_are_instructor">Você é um instrutor?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="Login">Entrar</string>
+
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="username">Apelido</string>
+    <string name="password">Senha</string>
+    <string name="repeat_password">Senha novamente</string>
+    <string name="register">Cadastrar</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_card">NewCard</string>
+    <string name="series">Séries</string>
+    <string name="repetition">Repetições</string>
+    <string name="charge">Carga(Kg)</string>
+    <string name="rest_time">Descanso(seg)</string>
+
+    <string name="empty_cards">Nenhuma ficha</string>
+    <string name="close">Fechar</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="new_card">Novas Ficha</string>
+    <string name="add_activity">Adicionar Exercício</string>
+    <string name="delete_cards">Deletar Fichas</string>
+
+    <string name="loading">Carregando...</string>
+    <string name="registerUser">Criando conta...</string>
+    <string name="loginSuccess">Login efetuado com sucesso!</string>
+    <string name="signup_successfuly">Conta criada com sucesso</string>
+    <string name="loginUser">Efetuando Login...</string>
+    <string name="sem_descricao">Sem descrição</string>
+
+    <string name="wait">Aguarde...</string>
+    <string name="message_alert_new_cards">Atenção: todas as suas fichas já criadas serão apagadas!\nTem certeza que deseja prosseguir?</string>
+    <string name="choice_method_create">Escolha um método de criação:</string>
+    <string name="choice_card_type">Escolha o tipo de ficha:</string>
+    <string name="how_many_cards">Quantas fichas?</string>
+    <string name="message_confirm_delete_cards">Tem certeza que deseja deletar todas as fichas?</string>
+    <string name="message_confirm_logout">Encerrar Sessão?</string>
+    <string name="no_registered_card">Nenhuma ficha criada</string>
+    <string name="thank_you_feedback">Obrigado pelo feedback!</string>
+    <string name="instructor">Instrutor</string>
+    <string name="student">Aluno</string>
+    <string name="choice_category">Escolha a categoria:</string>
+    <string name="cards_created_successfully">Fichas criadas com sucesso!</string>
+    <string name="card_not_empty">A ficha não pode ser vazia!</string>
+    <string name="serie">Série</string>
+    <string name="remove_activity">Remover exercício?</string>
+    <string name="signup_successfully">Cadastro realizado com sucesso</string>
+    <string name="info_to_new_instructor">Poderão ser solicitados futuramente novas informações, como academia onde trabalha, especialização, etc.</string>
+
+    <!--TextView-->
+    <string name="no_activity_added">Nenhum exercício adicionado</string>
+    <string name="how_many_series">Séries:</string>
+    <string name="how_many_repetition">Repetições:</string>
+    <string name="how_many_charges">Carga (Kg):</string>
+    <string name="how_many_rest_time">Descanso (seg):</string>
+
+    <!--Errors-->
+    <string name="error_retrieve_profile">Falha ao acessar informações do seu perfil.\nVerifique sua conexão com a internet</string>
+    <string name="error_retrieve_activities">Falha ao acessar lista de exercícios.\nVerifique sua conexão com a internet</string>
+
+    <!--Info-->
+    <string name="info_logout_sucessfuly">Sessão encerrada com sucesso</string>
+
+    <!--titles-->
+    <string name="title_dialog_new_cards">Novo Exercício</string>
+    <string name="title_which_new_activity">Novo exercício na ficha</string>
+</resources>

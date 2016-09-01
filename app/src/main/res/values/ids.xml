@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="error_retrieve_profile" type="id">Não foi possível acessar informações do seu
+        perfil. Tente novamente mais tarde
+    </item>
+</resources>

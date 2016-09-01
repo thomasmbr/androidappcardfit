@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/check_card"
+        android:title="@string/action_add_card"
+        android:icon="@drawable/ic_check"
+        app:showAsAction="always"
+        />
+</menu>

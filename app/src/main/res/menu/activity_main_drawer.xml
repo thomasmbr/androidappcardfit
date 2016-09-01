@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/item_perfil"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_perfil"
+            />
+        <item
+            android:id="@+id/item_card"
+            android:title="@string/card"
+            android:icon="@drawable/ic_card"
+            />
+        <item
+            android:id="@+id/item_activites"
+            android:title="@string/activities"
+            android:icon="@drawable/ic_list"
+            />
+        <item
+            android:id="@+id/item_student"
+            android:title="@string/students"
+            android:icon="@drawable/ic_students"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/item_settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_setting"
+            />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/item_feedback"
+            android:title="@string/feedback"
+            android:icon="@drawable/ic_feedback"
+            />
+        <item
+            android:id="@+id/item_sair"
+            android:title="@string/leave"
+            android:icon="@drawable/ic_logout"
+            />
+    </group>
+
+</menu>

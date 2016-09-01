@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "260563357334",
+    "firebase_url": "https://cardfit-baa84.firebaseio.com",
+    "project_id": "cardfit-baa84",
+    "storage_bucket": "cardfit-baa84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260563357334:android:cd809164b746a0f1",
+        "android_client_info": {
+          "package_name": "application.samoht.br.cardfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260563357334-t4p1ee2i8at6vv4f263eklonvqc0rt5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe0NtXhSTn_3N0bjGRrQfxQMCaGSPLjw8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
