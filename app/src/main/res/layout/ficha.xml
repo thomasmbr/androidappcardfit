@@ -20,6 +20,17 @@
         android:layout_below="@+id/spinner_class"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_cards_added"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:id="@+id/title"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
     <com.getbase.floatingactionbutton.FloatingActionsMenu
         android:id="@+id/fab_menu"
         android:layout_width="wrap_content"
@@ -40,7 +51,6 @@
             android:layout_height="wrap_content"
             app:fab_colorNormal="@color/white"
             app:fab_colorPressed="@color/white_pressed"
-            app:fab_size="mini"
             app:fab_icon="@drawable/playlist_plus"
             app:fab_title="@string/new_card"
             android:id="@+id/button_new_card"/>
@@ -50,7 +60,6 @@
             android:layout_height="wrap_content"
             app:fab_colorNormal="@color/white"
             app:fab_colorPressed="@color/white_pressed"
-            app:fab_size="mini"
             app:fab_icon="@drawable/ic_run"
             app:fab_title="@string/new_activity"
             android:id="@+id/button_new_activity"/>
@@ -60,7 +69,6 @@
             android:layout_height="wrap_content"
             app:fab_colorNormal="@color/white"
             app:fab_colorPressed="@color/white_pressed"
-            app:fab_size="mini"
             app:fab_icon="@drawable/ic_trash"
             app:fab_title="@string/delete_cards"
             android:id="@+id/button_delete_cards"

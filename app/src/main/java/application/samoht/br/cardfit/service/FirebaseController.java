@@ -236,7 +236,7 @@ public class FirebaseController{
     public void retrieveStandardActivities(final ActivitiesPresenter activitiesPresenter) {
 
         final ArrayList<StandardActivity> arrayListActivities = new ArrayList<>();
-        getClassesDBRef().addListenerForSingleValueEvent(new ValueEventListener() {
+        getClassesDBRef().addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Map<String,StandardClass>classes = new HashMap<>();

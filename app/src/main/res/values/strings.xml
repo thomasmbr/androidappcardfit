@@ -50,7 +50,7 @@
     <string name="save">Salvar</string>
     <string name="cancel">Cancelar</string>
 
-    <string name="new_card">Novas Ficha</string>
+    <string name="new_card">Nova Ficha</string>
     <string name="add_activity">Adicionar Exercício</string>
     <string name="delete_cards">Deletar Fichas</string>
 
@@ -82,6 +82,7 @@
 
     <!--TextView-->
     <string name="no_activity_added">Nenhum exercício adicionado</string>
+    <string name="no_cards_added">Nenhuma ficha criada</string>
     <string name="how_many_series">Séries:</string>
     <string name="how_many_repetition">Repetições:</string>
     <string name="how_many_charges">Carga (Kg):</string>

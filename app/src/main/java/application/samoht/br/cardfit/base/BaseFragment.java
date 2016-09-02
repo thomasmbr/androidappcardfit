@@ -3,10 +3,13 @@ package application.samoht.br.cardfit.base;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.widget.Toast;
+
+import application.samoht.br.cardfit.R;
 
 /**
  * Created by Thomas on 03/08/16.
@@ -47,6 +50,15 @@ public class BaseFragment extends Fragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setMessage(message);
         builder.setNeutralButton("Ok",null);
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+    }
+
+    protected void showConfirmDialog(Context context, CharSequence message, DialogInterface.OnClickListener onClickListener){
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setMessage(message);
+        builder.setPositiveButton(getString(R.string.yes), onClickListener);
+        builder.setNegativeButton(getString(R.string.no), null);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
     }

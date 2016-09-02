@@ -5,6 +5,7 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -16,6 +17,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.NumberPicker;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
 
@@ -43,6 +45,7 @@ public class CardsFragment extends BaseFragment implements ICardsView{
     @BindView(R.id.spinner_class) protected Spinner spinner;
     @BindView(R.id.recycler_cards) protected RecyclerView recyclerView;
     @BindView(R.id.fab_menu) protected FloatingActionsMenu floatingActionsMenu;
+    @BindView(R.id.title) protected TextView tvNoCards;
 
     private View rootView;
     private CardsPresenter cardsPresenter;
@@ -67,8 +70,11 @@ public class CardsFragment extends BaseFragment implements ICardsView{
         }
         if(cards.size() == 0) {
             cards.add(getString(R.string.no_registered_card));
-            spinner.setEnabled(false);
+            spinner.setVisibility(View.GONE);
+            tvNoCards.setVisibility(View.VISIBLE);
         }else if (cards.size() > 0) {
+            spinner.setVisibility(View.VISIBLE);
+            tvNoCards.setVisibility(View.GONE);
             RecyclerView.LayoutManager layout = new LinearLayoutManager(CardsFragment.this.getContext(), LinearLayoutManager.VERTICAL, false);
             //recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
             recyclerView.setLayoutManager(layout);
@@ -108,7 +114,11 @@ public class CardsFragment extends BaseFragment implements ICardsView{
             floatingActionsMenu.collapse();
         }
         Intent intent = new Intent(getActivity(),NewCardActivity.class);
-        intent.putExtra("countCards", spinner.getAdapter().getCount());
+        if(spinner.getAdapter() != null) {
+            intent.putExtra("countCards", spinner.getAdapter().getCount());
+        }else{
+            intent.putExtra("countCards", 0);
+        }
         startActivity(intent);
     }
 
@@ -240,6 +250,10 @@ public class CardsFragment extends BaseFragment implements ICardsView{
         Log.e("error",error);
     }
 
+    private void reloadFragment(){
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        ft.detach(this).attach(this).commit();
+    }
 
     @OnClick(R.id.button_new_card)
     public void onClickNewCard(){
@@ -253,7 +267,16 @@ public class CardsFragment extends BaseFragment implements ICardsView{
 
     @OnClick(R.id.button_delete_cards)
     public void onClickDeleteCards(){
-        cardsPresenter.deleteCards();
+        if (floatingActionsMenu.isExpanded()) {
+            floatingActionsMenu.collapse();
+        }
+        showConfirmDialog(getContext(), getString(R.string.message_confirm_delete_cards), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                cardsPresenter.deleteCards();
+                reloadFragment();
+            }
+        });
     }
 
 }
