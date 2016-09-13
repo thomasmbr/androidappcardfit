@@ -24,7 +24,6 @@ public class FirebaseHelper {
     private static FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
     private static FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private static FirebaseAuth.AuthStateListener authStateListener;
-
     private static DatabaseReference getUserDBRef(){
         return firebaseDatabase.getReference().child(USERS).child(firebaseUser.getUid());
     }
@@ -72,6 +71,5 @@ public class FirebaseHelper {
         firebaseDatabase.getReference().child("feedback").child(firebaseUser.getUid()).child("messages").push().setValue(message);
     }
 
-    
 
 }

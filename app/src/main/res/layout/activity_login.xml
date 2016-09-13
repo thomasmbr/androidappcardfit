@@ -24,7 +24,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/et_username_login"
         android:inputType="textEmailAddress"
-        android:text="thomas_spdf@hotmail.com"
         android:hint="@string/email"/>
 
     <EditText
@@ -33,7 +32,6 @@
         android:id="@+id/et_password"
         android:inputType="textPassword"
         android:hint="@string/password"
-        android:text="123456"
         android:layout_below="@+id/et_username_login"
         />
 
