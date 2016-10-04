@@ -20,16 +20,15 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
-import application.samoht.br.cardfit.base.BaseActivity;
-import application.samoht.br.cardfit.ui.main.menu.students.StudentsFragment;
 import application.samoht.br.cardfit.R;
-import application.samoht.br.cardfit.service.FirebaseController;
+import application.samoht.br.cardfit.base.BaseActivity;
 import application.samoht.br.cardfit.ui.login.LoginActivity;
+import application.samoht.br.cardfit.ui.main.menu.activities.ActivitiesFragment;
+import application.samoht.br.cardfit.ui.main.menu.cards.CardsFragment;
 import application.samoht.br.cardfit.ui.main.menu.feedback.FeedbackFragment;
 import application.samoht.br.cardfit.ui.main.menu.perfil.ProfileFragment;
 import application.samoht.br.cardfit.ui.main.menu.settings.SettingsFragment;
-import application.samoht.br.cardfit.ui.main.menu.activities.ActivitiesFragment;
-import application.samoht.br.cardfit.ui.main.menu.cards.CardsFragment;
+import application.samoht.br.cardfit.ui.main.menu.students.StudentsFragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -41,7 +40,7 @@ public class MainActivity extends BaseActivity
     @BindView(R.id.nav_view) protected NavigationView navigationView;
 
     private MainActivityPresenter mainActivityPresenter;
-    private FirebaseController firebaseController;
+    //private FirebaseController firebaseController;
 
     @TargetApi(Build.VERSION_CODES.M)
     @Override
@@ -50,7 +49,7 @@ public class MainActivity extends BaseActivity
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         mainActivityPresenter = new MainActivityPresenter(this);
-        firebaseController = new FirebaseController();
+        //firebaseController = new FirebaseController();
     }
 
     @Override

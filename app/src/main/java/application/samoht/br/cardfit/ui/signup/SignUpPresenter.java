@@ -1,7 +1,7 @@
 package application.samoht.br.cardfit.ui.signup;
 import android.text.TextUtils;
 
-import application.samoht.br.cardfit.service.FirebaseController;
+import application.samoht.br.cardfit.service.FirebaseHelper;
 
 /**
  * Created by Thomas on 08/08/16.
@@ -9,16 +9,14 @@ import application.samoht.br.cardfit.service.FirebaseController;
 public class SignUpPresenter{
 
     private ISignupView signupView;
-    private FirebaseController firebaseController;
 
     public SignUpPresenter(ISignupView s){
         this.signupView = s;
-        this.firebaseController = new FirebaseController(this);
         initSetupFirebase();
     }
 
     public void initSetupFirebase() {
-        firebaseController.autoLogin();
+        FirebaseHelper.autoLogin(this);
     }
 
     public void changedSwitch(boolean isChecked) {
@@ -40,17 +38,17 @@ public class SignUpPresenter{
     }
 
     public void setOnStart() {
-        firebaseController.addListenerFirebaseAuth();
+        FirebaseHelper.addListenerFirebaseAuth();
     }
 
     public void setOnStop() {
-        firebaseController.removeAuthStateListener();
+        FirebaseHelper.removeAuthStateListener();
     }
 
     public void doSignUp(String[] userData){
         if (validateForm(userData)){
             signupView.startLoading();
-            firebaseController.doSignUpUser(signupView.getActivity(), userData);
+            FirebaseHelper.doSignUpUser(signupView.getActivity(),this,userData);
         }
     }
 

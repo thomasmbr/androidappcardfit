@@ -2,8 +2,8 @@ package application.samoht.br.cardfit.ui.main.menu.activities;
 
 import java.util.ArrayList;
 
-import application.samoht.br.cardfit.service.FirebaseController;
 import application.samoht.br.cardfit.models.StandardActivity;
+import application.samoht.br.cardfit.service.FirebaseHelper;
 
 /**
  * Created by Thomas on 17/08/16.
@@ -11,12 +11,10 @@ import application.samoht.br.cardfit.models.StandardActivity;
 public class ActivitiesPresenter {
 
     private IActivitiesView activitiesView;
-    private FirebaseController firebaseController;
 
     public ActivitiesPresenter(IActivitiesView iActivitiesView) {
         this.activitiesView = iActivitiesView;
-        this.firebaseController = new FirebaseController();
-        firebaseController.retrieveStandardActivities(this);
+        FirebaseHelper.retrieveStandardActivities(this);
     }
 
     public void onSucessFully(ArrayList<StandardActivity> arrayListActivities){

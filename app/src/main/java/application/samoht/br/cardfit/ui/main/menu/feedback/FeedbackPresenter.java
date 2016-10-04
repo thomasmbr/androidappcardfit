@@ -1,6 +1,6 @@
 package application.samoht.br.cardfit.ui.main.menu.feedback;
 
-import application.samoht.br.cardfit.service.FirebaseController;
+import application.samoht.br.cardfit.service.FirebaseHelper;
 
 /**
  * Created by Thomas on 16/08/16.
@@ -8,15 +8,13 @@ import application.samoht.br.cardfit.service.FirebaseController;
 public class FeedbackPresenter {
 
     private IFeedbackView feedbackView;
-    private FirebaseController firebaseController;
 
     public FeedbackPresenter(IFeedbackView feedbackView) {
         this.feedbackView = feedbackView;
-        firebaseController = new FirebaseController();
     }
 
     public void sendMessage(String message) {
-        firebaseController.registerFeedback(message);
+        FirebaseHelper.registerFeedback(message);
         feedbackView.finishSend();
     }
 

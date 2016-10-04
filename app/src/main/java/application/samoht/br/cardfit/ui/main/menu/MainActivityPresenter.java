@@ -5,7 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.view.MenuItem;
 
 import application.samoht.br.cardfit.R;
-import application.samoht.br.cardfit.service.FirebaseController;
+import application.samoht.br.cardfit.service.FirebaseHelper;
 
 /**
  * Created by Thomas on 18/08/16.
@@ -13,13 +13,11 @@ import application.samoht.br.cardfit.service.FirebaseController;
 public class MainActivityPresenter {
 
     private IMainActivityView mainActivityView;
-    private FirebaseController firebaseController;
 
     public MainActivityPresenter(IMainActivityView iMainActivityView){
         this.mainActivityView = iMainActivityView;
-        firebaseController = new FirebaseController(this);
         mainActivityView.setParamView();
-        firebaseController.customizeMenuProfile();
+        FirebaseHelper.customizeMenuProfile(this);
     }
 
     public void changeItensMenu() {
@@ -47,7 +45,7 @@ public class MainActivityPresenter {
     public void onClickMenuLogout(){
         mainActivityView.logoutUser(new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
-                firebaseController.logoutUser();
+                FirebaseHelper.logoutUser();
                 mainActivityView.showInfo(mainActivityView.getMyContext().getString(R.string.info_logout_sucessfuly));
                 mainActivityView.callLoginActivity();
             }});
@@ -57,7 +55,7 @@ public class MainActivityPresenter {
         mainActivityView.deleteAllCards(new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                firebaseController.deleteAllCards();
+                FirebaseHelper.deleteAllCards();
             }
         });
     }

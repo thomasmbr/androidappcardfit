@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/androidappcardfit.iml" filepath="$PROJECT_DIR$/androidappcardfit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CardFitAppLite.iml" filepath="$PROJECT_DIR$/CardFitAppLite.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Map;
 
 import application.samoht.br.cardfit.models.CardItem;
-import application.samoht.br.cardfit.service.FirebaseController;
 import application.samoht.br.cardfit.models.StandardClass;
+import application.samoht.br.cardfit.service.FirebaseHelper;
 
 /**
  * Created by Thomas on 19/08/16.
@@ -13,14 +13,13 @@ import application.samoht.br.cardfit.models.StandardClass;
 public class CardsPresenter {
 
     private ICardsView cardsView;
-    private FirebaseController firebaseController;
+    //private FirebaseController firebaseController;
     private ArrayList<ArrayList<CardItem>> arrayOfArrayListCardItem;
 
     public CardsPresenter(ICardsView iCardsView){
         this.cardsView = iCardsView;
-        this.firebaseController = new FirebaseController();
         cardsView.startLoading();
-        firebaseController.retrieveCards(this);
+        FirebaseHelper.retrieveCards(this);
     }
 
     public void onSucessFully(ArrayList<ArrayList<CardItem>> arrayOfArrayList){
@@ -38,7 +37,7 @@ public class CardsPresenter {
     }
 
     public void newActivity(){
-        firebaseController.retrieveStandardClasses(this);
+        FirebaseHelper.retrieveStandardClasses(this);
     }
 
     public void notifyCreateDialogNewActivity(Map<String, StandardClass> classes){
@@ -46,7 +45,7 @@ public class CardsPresenter {
     }
 
     public void deleteCards(){
-        firebaseController.deleteAllCards();
+        FirebaseHelper.deleteAllCards();
     }
 
     public void setError(String error) {
@@ -54,6 +53,6 @@ public class CardsPresenter {
     }
 
     public void registerNewActivity(int cardID,int cardItemID, CardItem cardItem) {
-        firebaseController.addNewActivity(cardID, cardItemID, cardItem);
+        FirebaseHelper.addNewActivity(cardID,cardItemID,cardItem);
     }
 }

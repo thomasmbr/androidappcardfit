@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Map;
 
 import application.samoht.br.cardfit.models.CardItem;
-import application.samoht.br.cardfit.service.FirebaseController;
 import application.samoht.br.cardfit.models.StandardActivity;
 import application.samoht.br.cardfit.models.StandardClass;
+import application.samoht.br.cardfit.service.FirebaseHelper;
 
 /**
  * Created by Thomas on 23/08/16.
@@ -14,16 +14,14 @@ import application.samoht.br.cardfit.models.StandardClass;
 public class NewCardPresenter {
 
     private INewCardView newCardView;
-    private FirebaseController firebaseController;
 
     public NewCardPresenter(INewCardView INewCardView) {
         this.newCardView = INewCardView;
-        firebaseController = new FirebaseController(this);
         newCardView.initActivity();
     }
 
     public void clickFloatingActionButton() {
-        firebaseController.retrieveStandardClasses(this);
+        FirebaseHelper.retrieveStandardClasses(this);
     }
 
     public void notifyCreateDialogNewActivity(Map<String, StandardClass> classes) {
@@ -50,6 +48,6 @@ public class NewCardPresenter {
     }
 
     public void registerNewCard(int cardID, ArrayList<CardItem> arrayListCardItem) {
-        firebaseController.addNewCard(cardID, arrayListCardItem);
+        FirebaseHelper.addNewCard(cardID, arrayListCardItem);
     }
 }
