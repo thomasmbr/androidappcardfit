@@ -24,6 +24,9 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
+    //GoogleServices
+    compile 'com.google.android.gms:play-services-auth:9.4.0'
+    //RecyclerView
     compile 'com.android.support:recyclerview-v7:24.2.1'
     //Floating Action Button
     compile 'com.getbase:floatingactionbutton:1.10.1'

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">CardFit</string>
+    <!-- ID's -->
     <string name="banner_ad_unit_id">ca-app-pub-6011128614864045/8504624613</string>
+    <string name="id_auth_2_0">260563357334-t4p1ee2i8at6vv4f263eklonvqc0rt5q.apps.googleusercontent.com</string>
 
     <string name="profile">Perfil</string>
     <string name="card">Ficha</string>
@@ -91,9 +93,11 @@
     <!--Errors-->
     <string name="error_retrieve_profile">Falha ao acessar informações do seu perfil.\nVerifique sua conexão com a internet</string>
     <string name="error_retrieve_activities">Falha ao acessar lista de exercícios.\nVerifique sua conexão com a internet</string>
+    <string name="error_connect_google_auth">Falha ao conectar com conta Google</string>
 
     <!--Info-->
     <string name="info_logout_sucessfuly">Sessão encerrada com sucesso</string>
+    <string name="or">ou</string>
 
     <!--titles-->
     <string name="title_dialog_new_cards">Novo Exercício</string>

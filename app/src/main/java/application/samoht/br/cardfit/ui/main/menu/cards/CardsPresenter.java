@@ -13,7 +13,6 @@ import application.samoht.br.cardfit.service.FirebaseHelper;
 public class CardsPresenter {
 
     private ICardsView cardsView;
-    //private FirebaseController firebaseController;
     private ArrayList<ArrayList<CardItem>> arrayOfArrayListCardItem;
 
     public CardsPresenter(ICardsView iCardsView){

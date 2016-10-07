@@ -1,5 +1,8 @@
 package application.samoht.br.cardfit.ui.login;
 
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInResult;
+
 import application.samoht.br.cardfit.service.FirebaseHelper;
 
 /**
@@ -16,7 +19,7 @@ public class LoginPresenter {
 
     public void doLogin(String email, String password) {
         loginView.startLoading();
-        FirebaseHelper.doLoginUser(loginView.getActivity(),this,email,password);
+        FirebaseHelper.doLoginUser(loginView.getActivity(), this, email, password);
     }
 
     public void doSignUp(String email){
@@ -45,4 +48,8 @@ public class LoginPresenter {
         loginView.showError(message);
     }
 
+    public void authWithGoogle(GoogleSignInResult result) {
+        GoogleSignInAccount account = result.getSignInAccount();
+        FirebaseHelper.authWithGoogle(loginView.getActivity(), this, account);
+    }
 }

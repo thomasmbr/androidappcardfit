@@ -9,7 +9,7 @@
     android:layout_marginEnd="25dp"
     android:layout_marginStart="25dp"
     tools:context="application.samoht.br.cardfit.ui.login.LoginActivity"
-    android:gravity="center_vertical"
+    android:gravity="center"
     android:orientation="vertical">
 
     <ImageView
@@ -57,6 +57,17 @@
             />
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:textAlignment="center"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_login_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>

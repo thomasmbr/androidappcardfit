@@ -40,7 +40,6 @@ public class MainActivity extends BaseActivity
     @BindView(R.id.nav_view) protected NavigationView navigationView;
 
     private MainActivityPresenter mainActivityPresenter;
-    //private FirebaseController firebaseController;
 
     @TargetApi(Build.VERSION_CODES.M)
     @Override
@@ -49,7 +48,6 @@ public class MainActivity extends BaseActivity
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         mainActivityPresenter = new MainActivityPresenter(this);
-        //firebaseController = new FirebaseController();
     }
 
     @Override
@@ -156,7 +154,6 @@ public class MainActivity extends BaseActivity
 
     //@OnClick(R.id.button_new_cards)
     public void onClickNewCards(){
-
     }
 
     //@OnClick(R.id.button_delete_cards)
