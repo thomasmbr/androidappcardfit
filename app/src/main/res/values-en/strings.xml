@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Errors -->
+    <string name="error_login_network">A network error (such as timeout, interrupted connection or unreachable host) has occurred.</string>
+    <string name="error_login_user">There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="error_login_password">The password is invalid or the user does not have a password.</string>
+</resources>

@@ -14,7 +14,7 @@
     <string name="feedback">Feedback</string>
     <string name="pattern">Padrão</string>
     <string name="custom">Personalizado</string>
-    <string name="feedbackDesc">Nesta área você poderá sugerir dicas de melhoria e reportar erros. Estaremos trabalhando para melhorar a usabilidade do CardFit. Obrigado</string>
+    <string name="feedbackDesc">Nesta área você poderá sugerir dicas de melhorias e reportar erros. Estaremos trabalhando para melhorar a usabilidade do CardFit.</string>
     <string name="leave">Sair</string>
     <string name="card_ab">Ficha A,B</string>
     <string name="card_abc">Ficha A,B,C</string>
@@ -34,7 +34,7 @@
     <string name="username">Apelido</string>
     <string name="password">Senha</string>
     <string name="repeat_password">Senha novamente</string>
-    <string name="register">Cadastrar</string>
+    <string name="register">Criar conta</string>
     <string name="title_activity_main">MainActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -80,7 +80,7 @@
     <string name="serie">Série</string>
     <string name="remove_activity">Remover exercício?</string>
     <string name="signup_successfully">Cadastro realizado com sucesso</string>
-    <string name="info_to_new_instructor">Poderão ser solicitados futuramente novas informações, como academia onde trabalha, especialização, etc.</string>
+    <string name="info_to_new_instructor">Funcionalidade disponível apenas na versão completa do Cardfit.</string>
 
     <!--TextView-->
     <string name="no_activity_added">Nenhum exercício adicionado</string>
@@ -94,6 +94,14 @@
     <string name="error_retrieve_profile">Falha ao acessar informações do seu perfil.\nVerifique sua conexão com a internet</string>
     <string name="error_retrieve_activities">Falha ao acessar lista de exercícios.\nVerifique sua conexão com a internet</string>
     <string name="error_connect_google_auth">Falha ao conectar com conta Google</string>
+    <string name="error_email_pass_empty">Os campos de login devem ser preenchidos</string>
+    <string name="email_required">Email não pode ser vazio</string>
+    <string name="password_required">Senha não pode ser vazia</string>
+    <string name="error_timout">A conexão parece estar lenta!\nPor favor verifique sua conexão ou tente novamente após alguns instantes</string>
+    <string name="error_empty_field">O campo não pode estar vazio</string>
+    <string name="error_login_network">Um erro de rede ocorreu(tempo de espera expirado, conexão interrompida ou host inacessível).</string>
+    <string name="error_login_user">Não há registro de usuário correspondente a este email. O usuário pode ter sido excluído.</string>
+    <string name="error_login_password">A senha é inválida ou o usuário não tem uma senha.</string>
 
     <!--Info-->
     <string name="info_logout_sucessfuly">Sessão encerrada com sucesso</string>

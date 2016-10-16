@@ -38,6 +38,11 @@ public class ActivitiesFragment extends BaseFragment implements IActivitiesView{
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    @Override
     public void createRecyclerView(final ArrayList<StandardActivity> arrayListActivities){
         RecyclerView.LayoutManager layout = new LinearLayoutManager(this.getContext(), LinearLayoutManager.VERTICAL, false);
         recyclerView.setAdapter(new ActivitiesAdapter(arrayListActivities, this.getContext()));
@@ -47,7 +52,8 @@ public class ActivitiesFragment extends BaseFragment implements IActivitiesView{
 
     @Override
     public void showError() {
-        showSimpleAlertDialog(this.getContext(), getString(R.string.error_retrieve_activities));
+        if(isResumed())
+            showSimpleAlertDialog(getContext(), getString(R.string.error_retrieve_activities));
     }
 
 

@@ -12,5 +12,5 @@ public interface ILoginView {
     void startLoading();
     void finishLoading();
     void callMainActivity();
-    void callSignUpActivity(String email);
+    void callSignUpActivity(String email, String password);
 }

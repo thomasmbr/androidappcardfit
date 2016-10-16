@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#00838F</color><!-- material_cyan_800 -->
     <color name="colorAccent">#E53935</color><!--material_red_600-->
     <color name="colorAccentPressed">#CB1F1B</color><!--material_red_600_pressed-->
+    <color name="colorPrimaryLight">#e5f6f8</color>
 
     <color name="black">#000</color>
     <color name="orange">#F39C12</color>

@@ -17,14 +17,17 @@ public class CardsPresenter {
 
     public CardsPresenter(ICardsView iCardsView){
         this.cardsView = iCardsView;
-        cardsView.startLoading();
-        FirebaseHelper.retrieveCards(this);
     }
 
     public void onSucessFully(ArrayList<ArrayList<CardItem>> arrayOfArrayList){
         this.arrayOfArrayListCardItem = arrayOfArrayList;
         cardsView.finishLoading();
         cardsView.createList(arrayOfArrayListCardItem);
+    }
+
+    public void setOnResume(){
+        cardsView.startLoading();
+        FirebaseHelper.retrieveCards(this);
     }
 
     public void onError(){

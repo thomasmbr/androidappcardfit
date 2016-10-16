@@ -2,6 +2,7 @@ package application.samoht.br.cardfit.ui.main.menu.cards;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +20,7 @@ import android.widget.NumberPicker;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.getbase.floatingactionbutton.FloatingActionButton;
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
 
 import java.util.ArrayList;
@@ -45,6 +47,8 @@ public class CardsFragment extends BaseFragment implements ICardsView{
     @BindView(R.id.spinner_class) protected Spinner spinner;
     @BindView(R.id.recycler_cards) protected RecyclerView recyclerView;
     @BindView(R.id.fab_menu) protected FloatingActionsMenu floatingActionsMenu;
+    @BindView(R.id.button_new_activity) protected FloatingActionButton fabNewActivity;
+    @BindView(R.id.button_delete_cards) protected FloatingActionButton fabDeleteCards;
     @BindView(R.id.title) protected TextView tvNoCards;
 
     private View rootView;
@@ -58,26 +62,35 @@ public class CardsFragment extends BaseFragment implements ICardsView{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         rootView = inflater.inflate(R.layout.ficha,null);
         ButterKnife.bind(CardsFragment.this, rootView);
+        RecyclerView.LayoutManager layout = new LinearLayoutManager(CardsFragment.this.getContext(), LinearLayoutManager.VERTICAL, false);
+        recyclerView.setLayoutManager(layout);
         cardsPresenter = new CardsPresenter(this);
         return rootView;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        cardsPresenter.setOnResume();
     }
 
     @Override
     public void createList(final ArrayList<ArrayList<CardItem>> arrayOfArrayListCardItem){
         ArrayList<String> cards = new ArrayList<>();
         for (int i=0; i < arrayOfArrayListCardItem.size(); i++) {
-            cards.add(getString(R.string.card)+" "+alphabet.charAt(i));
+            cards.add("Ficha "+alphabet.charAt(i));
         }
         if(cards.size() == 0) {
-            cards.add(getString(R.string.no_registered_card));
+            cards.add("Nenhuma ficha criada");
+            fabNewActivity.setVisibility(View.GONE);
+            fabDeleteCards.setVisibility(View.GONE);
             spinner.setVisibility(View.GONE);
             tvNoCards.setVisibility(View.VISIBLE);
         }else if (cards.size() > 0) {
+            fabNewActivity.setVisibility(View.VISIBLE);
+            fabDeleteCards.setVisibility(View.VISIBLE);
             spinner.setVisibility(View.VISIBLE);
             tvNoCards.setVisibility(View.GONE);
-            RecyclerView.LayoutManager layout = new LinearLayoutManager(CardsFragment.this.getContext(), LinearLayoutManager.VERTICAL, false);
-            //recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
-            recyclerView.setLayoutManager(layout);
             ArrayAdapter<String> arrayAdapterSpinner = new ArrayAdapter<>(getContext(),android.R.layout.simple_spinner_dropdown_item,cards);
             spinner.setAdapter(arrayAdapterSpinner);
             spinner.setSelection(0);

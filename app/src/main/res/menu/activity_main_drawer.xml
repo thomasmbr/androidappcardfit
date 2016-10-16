@@ -28,6 +28,7 @@
             android:id="@+id/item_settings"
             android:title="@string/settings"
             android:icon="@drawable/ic_setting"
+            android:visible="false"
             />
     </group>
 

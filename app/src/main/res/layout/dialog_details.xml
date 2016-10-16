@@ -18,6 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/details_description"
+        android:layout_marginTop="@dimen/min_margin"
+        android:layout_marginEnd="@dimen/min_margin"
+        android:layout_marginStart="@dimen/min_margin"
         android:text="@string/sem_descricao"
         />
 
@@ -27,6 +30,8 @@
         android:layout_gravity="center_vertical|left"
         android:id="@+id/details_note"
         android:text=""
+        android:layout_marginEnd="@dimen/min_margin"
+        android:layout_marginStart="@dimen/min_margin"
         />
 
     <Button

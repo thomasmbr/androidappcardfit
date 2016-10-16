@@ -61,6 +61,7 @@
             app:fab_colorNormal="@color/white"
             app:fab_colorPressed="@color/white_pressed"
             app:fab_icon="@drawable/ic_run"
+            android:visibility="gone"
             app:fab_title="@string/new_activity"
             android:id="@+id/button_new_activity"/>
 
@@ -72,6 +73,7 @@
             app:fab_icon="@drawable/ic_trash"
             app:fab_title="@string/delete_cards"
             android:id="@+id/button_delete_cards"
+            android:visibility="gone"
             />
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>

@@ -60,6 +60,21 @@ public class MainActivity extends BaseActivity
     }
 
     @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
@@ -102,7 +117,8 @@ public class MainActivity extends BaseActivity
         navigationView.getMenu().getItem(1).setChecked(true);
         MobileAds.initialize(this, getString(R.string.banner_ad_unit_id));
         AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
+        //AdRequest adRequest = new AdRequest.Builder().build();
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice("C099EF074191BB891F315F42E173345F").build();
         mAdView.loadAd(adRequest);
     }
 
@@ -150,15 +166,6 @@ public class MainActivity extends BaseActivity
     public void callFragmentFeedback(FragmentManager fm) {
         setTitle(getString(R.string.feedback));
         fm.beginTransaction().replace(R.id.content_frame, new FeedbackFragment()).commit();
-    }
-
-    //@OnClick(R.id.button_new_cards)
-    public void onClickNewCards(){
-    }
-
-    //@OnClick(R.id.button_delete_cards)
-    public void onClickDeleteAllCards(){
-        mainActivityPresenter.onClickDeleteAllCards();
     }
 
     @Override

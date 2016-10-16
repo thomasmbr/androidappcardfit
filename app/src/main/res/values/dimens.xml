@@ -7,6 +7,8 @@
     <dimen name="nav_header_height">160dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
+    <dimen name="min_margin">8dp</dimen>
+
     <dimen name="tab_max_width">264dp</dimen>
     <dimen name="tab_padding_botoom">16dp</dimen>
     <dimen name="tab_label">14sp</dimen>

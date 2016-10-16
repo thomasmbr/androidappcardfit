@@ -36,7 +36,11 @@ public class FeedbackFragment extends BaseFragment implements IFeedbackView{
     @Override
     @OnClick(R.id.sendButton)
     public void onClickButtonSend(){
-        feedbackPresenter.sendMessage(editText.getText().toString());
+        if (!editText.getText().toString().isEmpty()){
+            feedbackPresenter.sendMessage(editText.getText().toString());
+        }else {
+            showSimpleAlertDialog(getContext(), getString(R.string.error_empty_field));
+        }
     }
 
     @Override

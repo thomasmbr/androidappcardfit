@@ -120,7 +120,7 @@ public class FirebaseHelper {
         }
     }
 
-    public static void doLoginUser(Activity activity, final LoginPresenter loginPresenter, String email, String password){
+    public static void doLoginUser(final Activity activity, final LoginPresenter loginPresenter, String email, String password){
         firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(activity, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -235,7 +235,7 @@ public class FirebaseHelper {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
+                FirebaseCrash.report(new Exception("<onCancelled> Firebase.retrieveStandardClasses - From CardsPresenter"));
             }
         });
     }
@@ -267,7 +267,7 @@ public class FirebaseHelper {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
+                FirebaseCrash.report(new Exception("<onCanceled> Firebase.retrieveStandardClasses - From NewCardsPresenter"));
             }
         });
     }
@@ -308,8 +308,7 @@ public class FirebaseHelper {
             @Override
             public void onCancelled(DatabaseError databaseError) {
                 profilePresenter.setError();
-                //FirebaseCrash.report(databaseError.toException());
-                Log.e(TAG,"ErrorFirebaseListener: "+databaseError.toString());
+                FirebaseCrash.report(new Exception("<onCanceled> Firebase.retrieveInfoUser"));
             }
         });
     }
@@ -325,7 +324,7 @@ public class FirebaseHelper {
             }
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
+                FirebaseCrash.report(new Exception("<onCanceled> Firebase.customizeMenuProfile"));
             }
         });
     }

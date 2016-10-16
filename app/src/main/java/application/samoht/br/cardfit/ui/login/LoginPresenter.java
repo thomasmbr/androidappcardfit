@@ -22,8 +22,8 @@ public class LoginPresenter {
         FirebaseHelper.doLoginUser(loginView.getActivity(), this, email, password);
     }
 
-    public void doSignUp(String email){
-        loginView.callSignUpActivity(email);
+    public void doSignUp(String email, String password){
+        loginView.callSignUpActivity(email, password);
     }
 
     public void finishProcessLogin(){

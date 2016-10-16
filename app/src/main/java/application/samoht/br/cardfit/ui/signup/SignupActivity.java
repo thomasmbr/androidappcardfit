@@ -3,12 +3,15 @@ package application.samoht.br.cardfit.ui.signup;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TextInputLayout;
+import android.util.Log;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Switch;
 
-import application.samoht.br.cardfit.base.BaseActivity;
 import application.samoht.br.cardfit.R;
+import application.samoht.br.cardfit.base.BaseActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -22,24 +25,31 @@ public class SignupActivity extends BaseActivity implements ISignupView{
     @BindView(R.id.et_email) protected EditText editTextEmail;
     @BindView(R.id.et_password) protected EditText editTextPassword;
     @BindView(R.id.et_repeat_password) protected EditText editTextRepeatPassword;
+    @BindView(R.id.til_name) protected TextInputLayout til_name;
+    @BindView(R.id.til_email) protected TextInputLayout til_email;
+    @BindView(R.id.til_password) protected TextInputLayout til_password;
+    @BindView(R.id.til_repeat_password) protected TextInputLayout til_repeat_password;
     @BindView(R.id.tb_instrutor) protected Switch switchTrainer;
+    @BindView(R.id.imageView2) protected ImageView imageViewBack;
     private SignUpPresenter signUpPresenter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide();
         setContentView(R.layout.activity_signup);
+        getSupportActionBar().hide();
         ButterKnife.bind(this);
-        signUpPresenter = new SignUpPresenter(this);
-
-        editTextEmail.setText(getIntent().getStringExtra("email"));
+        if (!getIntent().getStringExtra("email").isEmpty())
+            editTextEmail.setText(getIntent().getStringExtra("email"));
+        if (!getIntent().getStringExtra("password").isEmpty())
+            editTextPassword.setText(getIntent().getStringExtra("password"));
         switchTrainer.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 signUpPresenter.changedSwitch(isChecked);
             }
         });
+        signUpPresenter = new SignUpPresenter(this);
     }
 
     @Override
@@ -86,17 +96,23 @@ public class SignupActivity extends BaseActivity implements ISignupView{
 
     @Override
     public void setErrorEmail(String message){
-        editTextEmail.setError(message);
+        til_email.setError(message);
+        if (imageViewBack.getLayoutParams().height <= 750)
+            imageViewBack.getLayoutParams().height += 150;
     }
 
     @Override
     public void setErrorPassword(String message){
-        editTextPassword.setError(message);
+        til_password.setError(message);
+        if (imageViewBack.getLayoutParams().height <= 750)
+            imageViewBack.getLayoutParams().height += 150;
     }
 
     @Override
     public void setErrorRepeatPassword(String message){
-        editTextRepeatPassword.setError(message);
+        til_repeat_password.setError(message);
+        if (imageViewBack.getLayoutParams().height <= 750)
+            imageViewBack.getLayoutParams().height += 150;
     }
 
     @OnClick(R.id.button_signup)

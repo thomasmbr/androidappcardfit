@@ -11,7 +11,9 @@
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        card_view:cardElevation="3dp"
+        card_view:cardElevation="2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
         card_view:cardCornerRadius="4dp">
 
     <LinearLayout
@@ -53,6 +55,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:weightSum="10"
+                android:background="@color/colorPrimaryLight"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="0dp"
@@ -87,6 +90,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
                 android:weightSum="10">
                 <TextView
                     android:layout_width="0dp"

@@ -3,6 +3,8 @@ package application.samoht.br.cardfit.base;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
@@ -16,6 +18,14 @@ import application.samoht.br.cardfit.R;
 public class BaseActivity extends AppCompatActivity {
 
     private ProgressDialog mProgressDialog;
+    private Handler closeHandler = new Handler() {
+        public void handleMessage(Message msg) {
+            if (mProgressDialog.isShowing()) {
+                mProgressDialog.dismiss();
+                showSimpleAlertDialog(getString(R.string.error_timout));
+            }
+        }
+    };
 
     protected void showProgressDialog(String message) {
         if (mProgressDialog == null) {
@@ -26,6 +36,7 @@ public class BaseActivity extends AppCompatActivity {
             mProgressDialog.setCanceledOnTouchOutside(false);
         }
         mProgressDialog.show();
+        closeHandler.sendEmptyMessageDelayed(0, 15000);
     }
 
     protected void hideProgressDialog() {

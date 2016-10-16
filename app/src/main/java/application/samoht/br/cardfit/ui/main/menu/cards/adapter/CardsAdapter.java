@@ -106,7 +106,7 @@ public class CardsAdapter extends RecyclerView.Adapter {
             TextView tvDescription = (TextView) dialog.findViewById(R.id.details_description);
             imageView.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onClick(View v) { Toast.makeText(context,"Abrir video youtube",Toast.LENGTH_SHORT).show(); }
+                public void onClick(View v) { /*Toast.makeText(context,"Abrir video youtube",Toast.LENGTH_SHORT).show();*/ }
             });
             tvDescription.setText(cardItem.getDescription());
             TextView tvNote = (TextView) dialog.findViewById(R.id.details_note);

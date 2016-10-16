@@ -4,8 +4,7 @@
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingBottom="48dp">
+    android:paddingRight="@dimen/activity_horizontal_margin">
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,6 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryLight"
+        android:gravity="bottom"
         android:orientation="horizontal">
 
         <EditText
@@ -28,13 +29,14 @@
             android:layout_weight="1"
             android:inputType="textLongMessage"
             android:lines="1"
-            android:singleLine="true" />
+            android:maxLines="1" />
 
         <ImageButton
             android:id="@+id/sendButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_send"
+            style="@style/Widget.AppCompat.Button.Borderless"
             />
     </LinearLayout>
 

@@ -3,192 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_8d08b08df2e4c49397113c1b9a55ce716d8895df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_4e465b14a32226982ca758cb8d50d7c6c84137e8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_f6777476e228da1fe06ed41cb038c6959ed0be76.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_2ed60b3074cf1ab317d1242187b781df82e72034.jar" />
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.6.1_68f6ac40ba36c200d249ad5d9428e7892145fc11.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_9563b6efaf9154d97de8bfbca4bd10fc4d2ad302.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_9ee9693c9757b1cf602363f0d42b8ad4601dc90d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_d138327468351b119f1cda67d012970d0428e1dc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_efd5a559c6d8f6e153a7e1c6a19020a0317796c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_c4f0b2debe6daf225d7f7b5bd87ea9b84bfafaab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_840abf2af327b7ca2a2efc587b0960800891966a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.getbase-floatingactionbutton-1.10.1_058f29c2ecdedd67f96ac0baa37de77fd144a2ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_a55a396cae4a3953ec53dcde332200dfc03027f0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_1e28c59a49d2f3d21399df3fde595a90c026ed00.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_d31bba1dcdbcfce25d6c511d2a7ff0808e9efb10.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_6950139f33e4592b86111f0afa1f323ada47ee5a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.2.1/d6f54d76edfbe779a50a8636b10fd3f555d8f780/butterknife-annotations-8.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d6f54d76edfbe779a50a8636b10fd3f555d8f780">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.2.1_5171b6546e78c7980573be5f993fce041156c94b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_34f9609be1b88d72411dd1385a19537b502db51d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_81a233d31d70e161fd596511f88697182065007b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_b0efeb18788271cf2f098788ebc9ace46fbed2c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_2e373f6b1dfe2b97143f09ad32dc78a3dde939aa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_38a1df8abc484dc5528d8e14266b8f9b0a955369.jar" />
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.6.1_10812fe8cccf65de46e122d6d64fedc03baf7304.jar" />
     </item>
     <item
         is-multidex="false"
@@ -201,345 +30,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_8d08b08df2e4c49397113c1b9a55ce716d8895df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_9ee9693c9757b1cf602363f0d42b8ad4601dc90d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_efd5a559c6d8f6e153a7e1c6a19020a0317796c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_169fd4005758cc875fbd6d3074cf1acf78546de3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_007bba3ca8ec91398b68083ab0a4c4088a47d5cd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_a0edd9989578b40c89db45edc5b910e00146330b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_c4f0b2debe6daf225d7f7b5bd87ea9b84bfafaab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_f94415144f6df5c8ee13aff58f926182ce2adcc8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_81a233d31d70e161fd596511f88697182065007b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_8281f11122b57b2f39f15e89dc9db09d068d14df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_1e28c59a49d2f3d21399df3fde595a90c026ed00.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_d31bba1dcdbcfce25d6c511d2a7ff0808e9efb10.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.2.1_955c9e530aecac473dc73b12871a87d27a8afdca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_6950139f33e4592b86111f0afa1f323ada47ee5a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_2e373f6b1dfe2b97143f09ad32dc78a3dde939aa.jar" />
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.6.1_d69fa3307b58c8dbfbeae9a2d6035d010bfc4fb7.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
         <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_2ed60b3074cf1ab317d1242187b781df82e72034.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_3b15b662c4efb56562256d4e4c4f686f3288af85.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_84887f04aef343d84592257aa38cafa30677d64c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_169fd4005758cc875fbd6d3074cf1acf78546de3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_f4c91f4d2077ca94d4251d30560f9ca5598389f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_007bba3ca8ec91398b68083ab0a4c4088a47d5cd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.hannesdorfmann.mosby/mvp/2.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8d5f68a8fdd8283ea42b20259ae4adad9cbe5e94">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.hannesdorfmann.mosby-mvp-2.0.1_1b85254eea7596cff555b59b8f7185c2df4c19cb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_f4c91f4d2077ca94d4251d30560f9ca5598389f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.2.1_955c9e530aecac473dc73b12871a87d27a8afdca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_0d7447258b9593074a7a3435341920c104ede9f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.hannesdorfmann.mosby/viewstate/2.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="66898369cdbdcd732d7b0143aa12010cf4814005">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.hannesdorfmann.mosby-viewstate-2.0.1_2b92de34f9e87cc5bc7c8557851e3093f530cd3e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_690b7163c0827bb7d58dcae8aa50c6c561997cfc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_c3f63c3decc70ed2d4b160d7dc6102841f804ea4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_84887f04aef343d84592257aa38cafa30677d64c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b24f74f2789857cd7bcc244b1b9b8e2a381671a7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_9b7d4e0981dbe415231cd5bb063791d54a576a66.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_fe7b96a9e223e97be0fea73f644b55c9023bb26f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_c790abe71a83e47d54ce20d11c5d88f2b5146ec4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_3b15b662c4efb56562256d4e4c4f686f3288af85.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_8472a1ec55000c47a9e58bcc025e187a036c8c63.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann.mosby/mvp-common/2.0.1/d75c9c5577143f3cf3fd63f61526a551f910b56f/mvp-common-2.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d75c9c5577143f3cf3fd63f61526a551f910b56f">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/mvp-common-2.0.1_d3e42cc6316f59b258d51cb5403a6e6e45ae3ba1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_840abf2af327b7ca2a2efc587b0960800891966a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_4e465b14a32226982ca758cb8d50d7c6c84137e8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -552,21 +57,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_d138327468351b119f1cda67d012970d0428e1dc.jar" />
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.6.1_8da8018657eaf6060de0158ea90aa030b5008955.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_9b7d4e0981dbe415231cd5bb063791d54a576a66.jar" />
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.6.1_5b6efe6432f890987728dcc99f6d63386d555953.jar" />
     </item>
     <item
         is-multidex="false"
@@ -579,12 +84,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_0d7447258b9593074a7a3435341920c104ede9f2.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_9ee9693c9757b1cf602363f0d42b8ad4601dc90d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_169fd4005758cc875fbd6d3074cf1acf78546de3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.6.1_77191f7f1a9b2150df646bb1b0f506bd592e945e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.6.1_4ab424ce04796996c6caca9f873e7a3041db8363.jar" />
     </item>
     <item
         is-multidex="false"
@@ -597,30 +129,66 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_104743555b91c82cbc38fc036896ab43bbb72dbe.jar" />
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.6.1_7af4c9e98dd2c6025236edcbc6ef9527cf21573f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_8281f11122b57b2f39f15e89dc9db09d068d14df.jar" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_d138327468351b119f1cda67d012970d0428e1dc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_f94415144f6df5c8ee13aff58f926182ce2adcc8.jar" />
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.6.1_607ab1237185bda61c4eb89d5cec9cff5780bd66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_f4c91f4d2077ca94d4251d30560f9ca5598389f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.6.1_0c69408a15c15bbc47c5dca59b8ed0c57bfb8ecf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_efd5a559c6d8f6e153a7e1c6a19020a0317796c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_007bba3ca8ec91398b68083ab0a4c4088a47d5cd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -633,6 +201,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.6.1_de2f9ed7864eb4250d9666e86758b26f9365ef0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
@@ -642,12 +219,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_a55a396cae4a3953ec53dcde332200dfc03027f0.jar" />
+        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.2.1_955c9e530aecac473dc73b12871a87d27a8afdca.jar" />
     </item>
     <item
         is-multidex="false"
@@ -657,6 +234,33 @@
         revision="23.0.3"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
         <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_fe7b96a9e223e97be0fea73f644b55c9023bb26f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_d31bba1dcdbcfce25d6c511d2a7ff0808e9efb10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha9/constraint-layout-solver-1.0.0-alpha9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6a908fd0803cc5f65b007101002aec06dc7544da">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha9_9888f0fc7c4cdefbd69d622b4623c961341f77d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_84887f04aef343d84592257aa38cafa30677d64c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -678,53 +282,8 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_f2ca0be267cfac42451e98439e8721c952d6a446.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_690b7163c0827bb7d58dcae8aa50c6c561997cfc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_f6777476e228da1fe06ed41cb038c6959ed0be76.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_69fe595b3fe093c38b5459b698f418128910ede8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_34f9609be1b88d72411dd1385a19537b502db51d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/thomasmarquesbrandaoreis/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.2.1/d6f54d76edfbe779a50a8636b10fd3f555d8f780/butterknife-annotations-8.2.1.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="d6f54d76edfbe779a50a8636b10fd3f555d8f780">
@@ -732,12 +291,84 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_8472a1ec55000c47a9e58bcc025e187a036c8c63.jar" />
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.6.1_606e0be2220a179268c38910718800e1ce6fc8e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.6.1_8b848d0dacccc6d6dc18da9ed045bb84623d594b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_81a233d31d70e161fd596511f88697182065007b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.6.1_855c18f9d17b0aec89d0fe04067578d5d4d31e3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.6.1_7874b33ed69cd210b7f711dc145265ad8397aa1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.6.1_d5a7190319db9b0b44e57cdcedd194f6f7fe4d1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.6.1_b607fbc639dbccc42735645d531f23d916a74e6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_c790abe71a83e47d54ce20d11c5d88f2b5146ec4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.6.1_3eb45d3ca713b14e5afc1739266086a35332b499.jar" />
     </item>
     <item
         is-multidex="false"
@@ -750,21 +381,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_c790abe71a83e47d54ce20d11c5d88f2b5146ec4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_38a1df8abc484dc5528d8e14266b8f9b0a955369.jar" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_8472a1ec55000c47a9e58bcc025e187a036c8c63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.6.1_0ae8d0246480e190862665a0a6daa4cf1954763d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -774,6 +405,15 @@
         revision="23.0.3"
         sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
         <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_b0efeb18788271cf2f098788ebc9ace46fbed2c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f2b64f6a762f61a2379d6a79af03e2ee56eefe0b">
+        <dex dex="/Users/thomasmarquesbrandaoreis/Documents/Projetos/CardFitAppLite/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha9_b5e139de92a68376f025155954ef12367f12ada2.jar" />
     </item>
 
 </items>

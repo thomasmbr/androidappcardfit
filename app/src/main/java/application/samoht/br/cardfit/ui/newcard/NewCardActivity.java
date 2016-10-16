@@ -3,6 +3,7 @@ package application.samoht.br.cardfit.ui.newcard;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -26,6 +27,7 @@ import application.samoht.br.cardfit.base.BaseActivity;
 import application.samoht.br.cardfit.models.CardItem;
 import application.samoht.br.cardfit.models.StandardActivity;
 import application.samoht.br.cardfit.models.StandardClass;
+import application.samoht.br.cardfit.ui.main.menu.MainActivity;
 import application.samoht.br.cardfit.ui.newcard.Adapter.NewCardsAdapter;
 import application.samoht.br.cardfit.util.DividerItemDecoration;
 import butterknife.BindView;
@@ -67,6 +69,8 @@ public class NewCardActivity extends BaseActivity implements INewCardView{
                     showSimpleAlertDialog(getString(R.string.card_not_empty));
                 }else {
                     newCardPresenter.registerNewCard(cardNumber, arrayListCardItem);
+                    Intent intent = new Intent(NewCardActivity.this, MainActivity.class);
+                    startActivity(intent);
                     finish();
                 }
                 return true;
@@ -84,7 +88,8 @@ public class NewCardActivity extends BaseActivity implements INewCardView{
         recyclerView.setAdapter(new NewCardsAdapter(arrayListCardItem, this));
         MobileAds.initialize(this, getString(R.string.banner_ad_unit_id));
         AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
+        //AdRequest adRequest = new AdRequest.Builder().build();
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice("C099EF074191BB891F315F42E173345F").build();
         mAdView.loadAd(adRequest);
     }
 

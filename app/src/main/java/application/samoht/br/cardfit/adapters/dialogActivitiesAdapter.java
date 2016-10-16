@@ -50,7 +50,13 @@ public class dialogActivitiesAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(RecyclerView.ViewHolder viewHolder, int position) {
         CustomViewHolder holder = (CustomViewHolder) viewHolder;
         StandardActivity standardActivity = arrayListActivties.get(position);
-        Picasso.with(context).load(standardActivity.getThumbnail()).resize(200,200).into(holder.image);
+        //Picasso.with(context).load(standardActivity.getThumbnail()).resize(200,200).into(holder.image);
+        Picasso.with(context)
+                .load(standardActivity.getThumbnail())
+                .placeholder(R.drawable.ic_file_image)
+                .error(R.drawable.ic_image_broken)
+                .resize(200,200)
+                .into(holder.image);
         holder.name.setText(standardActivity.getName());
     }
 

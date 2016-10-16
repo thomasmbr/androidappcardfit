@@ -17,6 +17,14 @@ import application.samoht.br.cardfit.R;
 public class BaseFragment extends Fragment {
 
     ProgressDialog mProgressDialog;
+    private Handler closeHandler = new Handler() {
+        public void handleMessage(Message msg) {
+            if (mProgressDialog.isShowing()) {
+                mProgressDialog.dismiss();
+                showSimpleAlertDialog(getContext(), getString(R.string.error_timout));
+            }
+        }
+    };
 
     protected void showProgressDialog(String message) {
         if (mProgressDialog == null) {
@@ -27,6 +35,7 @@ public class BaseFragment extends Fragment {
             mProgressDialog.setCanceledOnTouchOutside(false);
         }
         mProgressDialog.show();
+        closeHandler.sendEmptyMessageDelayed(0, 15000);
     }
 
     protected void hideProgressDialog() {
@@ -49,7 +58,7 @@ public class BaseFragment extends Fragment {
     protected void showSimpleAlertDialog(Context context, CharSequence message){
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setMessage(message);
-        builder.setNeutralButton("Ok",null);
+        builder.setNeutralButton(getString(R.string.ok),null);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
     }
