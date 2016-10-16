@@ -117,8 +117,8 @@ public class MainActivity extends BaseActivity
         navigationView.getMenu().getItem(1).setChecked(true);
         MobileAds.initialize(this, getString(R.string.banner_ad_unit_id));
         AdView mAdView = (AdView) findViewById(R.id.adView);
-        //AdRequest adRequest = new AdRequest.Builder().build();
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice("C099EF074191BB891F315F42E173345F").build();
+        AdRequest adRequest = new AdRequest.Builder().build();
+        //AdRequest adRequest = new AdRequest.Builder().addTestDevice("C099EF074191BB891F315F42E173345F").build();
         mAdView.loadAd(adRequest);
     }
 
