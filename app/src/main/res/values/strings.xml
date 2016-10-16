@@ -22,7 +22,7 @@
 
     <string name="action_add_card">Adicionar Ficha</string>
     <string name="new_activity">Novo exercício</string>
-    <string name="ok">ok</string>
+    <string name="ok">OK</string>
     <string name="you_are_instructor">Você é um instrutor?</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
@@ -56,14 +56,14 @@
     <string name="add_activity">Adicionar Exercício</string>
     <string name="delete_cards">Deletar Fichas</string>
 
-    <string name="loading">Carregando...</string>
-    <string name="registerUser">Criando conta...</string>
+    <string name="loading">Carregando…</string>
+    <string name="registerUser">Criando conta…</string>
     <string name="loginSuccess">Login efetuado com sucesso!</string>
     <string name="signup_successfuly">Conta criada com sucesso</string>
-    <string name="loginUser">Efetuando Login...</string>
+    <string name="loginUser">Efetuando Login…</string>
     <string name="sem_descricao">Sem descrição</string>
 
-    <string name="wait">Aguarde...</string>
+    <string name="wait">Aguarde…</string>
     <string name="message_alert_new_cards">Atenção: todas as suas fichas já criadas serão apagadas!\nTem certeza que deseja prosseguir?</string>
     <string name="choice_method_create">Escolha um método de criação:</string>
     <string name="choice_card_type">Escolha o tipo de ficha:</string>

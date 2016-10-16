@@ -23,9 +23,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/main/menu/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/main/menu/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/newcard/NewCardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/newcard/NewCardActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="CardFitAppLite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,11 +128,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/main/menu/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-348">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1695">
+              <caret line="113" column="64" selection-start-line="113" selection-start-column="64" selection-end-line="113" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -158,6 +191,10 @@
         <option value="ASClass" />
       </list>
     </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/CardFitAppLite.jks" />
+    <option name="KEY_ALIAS" value="CardFitAppLite" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2178,8 +2215,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/main/menu/activities/ActivitiesFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings-en.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-en/string.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/service/FirebaseHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/main/menu/cards/CardsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/bg_form.xml" />
@@ -2205,6 +2240,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_list_actitivies.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/newcard/NewCardActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/main/menu/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" />
       </list>
     </option>
   </component>
@@ -2262,6 +2299,54 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CardFitAppLite" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strings.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CardFitAppLite" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2279,6 +2364,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mipmap" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CardFitAppLite" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2523,6 +2622,9 @@
     <property name="device.picker.selection" value="192.168.56.102:5555" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="FullScreen" value="true" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2874,12 +2976,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22603719" sideWeight="0.18714556" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22603719" sideWeight="0.18362282" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34367245" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34367245" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2897,7 +2999,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26799008" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22603719" sideWeight="0.81285447" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22603719" sideWeight="0.81637716" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2926,13 +3028,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.gradle/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3000,22 +3095,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings-en.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="110" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="103" column="90" selection-start-line="103" selection-start-column="90" selection-end-line="103" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/service/FirebaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -3075,17 +3154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -3373,6 +3441,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/main/menu/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/newcard/NewCardActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -3381,10 +3476,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/application/samoht/br/cardfit/ui/main/menu/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+        <state relative-caret-position="-348">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="64" selection-start-line="113" selection-start-column="64" selection-end-line="113" selection-end-column="64" />
           <folding />
         </state>
       </provider>
